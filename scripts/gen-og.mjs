@@ -29,7 +29,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
     <rect x="82" y="26" width="42" height="42" rx="9" fill="#31e0e0"/>
     <rect x="26" y="82" width="42" height="42" rx="9" fill="#8b2fd6"/>
     <rect x="82" y="82" width="42" height="42" rx="9" fill="#f0a24b"/>
-    <text x="75" y="196" font-family="Georgia, serif" font-size="21" fill="#ff86c8" text-anchor="middle" font-style="italic">cyberpunk</text>
+    <text x="75" y="196" font-family="Georgia, serif" font-size="21" fill="#ff86c8" text-anchor="middle" font-style="italic">bi-lighting</text>
   </g>
   <g transform="translate(525,150)">
     <rect x="0" y="0" width="150" height="150" rx="24" fill="#f3eff7" stroke="#b79ad6" stroke-width="3"/>
@@ -37,7 +37,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
     <rect x="82" y="26" width="42" height="42" rx="9" fill="#a8d4a0"/>
     <rect x="26" y="82" width="42" height="42" rx="9" fill="#f2e6a8"/>
     <rect x="82" y="82" width="42" height="42" rx="9" fill="#eec4dd"/>
-    <text x="75" y="196" font-family="Georgia, serif" font-size="21" fill="#b79ad6" text-anchor="middle" font-style="italic">pastel · witch</text>
+    <text x="75" y="196" font-family="Georgia, serif" font-size="21" fill="#b79ad6" text-anchor="middle" font-style="italic">pastel</text>
   </g>
   <g transform="translate(954,150)">
     <rect x="0" y="0" width="150" height="150" rx="24" fill="#f4ead6" stroke="#b5462e" stroke-width="3"/>
@@ -45,11 +45,11 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
     <rect x="82" y="26" width="42" height="42" rx="9" fill="#e9ddc4"/>
     <rect x="26" y="82" width="42" height="42" rx="9" fill="#b5462e"/>
     <rect x="82" y="82" width="42" height="42" rx="9" fill="#c98a3a"/>
-    <text x="75" y="196" font-family="Georgia, serif" font-size="21" fill="#b5462e" text-anchor="middle" font-style="italic">ukiyo-e</text>
+    <text x="75" y="196" font-family="Georgia, serif" font-size="21" fill="#b5462e" text-anchor="middle" font-style="italic">ukiyo-e heroes</text>
   </g>
 
   <text x="${W/2}" y="450" font-family="Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="url(#title)" text-anchor="middle" letter-spacing="-1">PBT Keycap Lookbook</text>
-  <text x="${W/2}" y="500" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#c7c8d6" text-anchor="middle">14 hand-verified Etsy sets · DSA · SA · XDA · MOA · MDA</text>
+  <text x="${W/2}" y="500" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#c7c8d6" text-anchor="middle">18 hand-verified sets · Etsy + specialist retailers</text>
   <text x="${W/2}" y="556" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#8f90a2" text-anchor="middle">every listing opened &amp; confirmed live · prices as of Jul 2026</text>
 </svg>`;
 
