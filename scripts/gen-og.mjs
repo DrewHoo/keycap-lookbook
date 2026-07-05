@@ -49,7 +49,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
   </g>
 
   <text x="${W/2}" y="450" font-family="Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="url(#title)" text-anchor="middle" letter-spacing="-1">PBT Keycap Lookbook</text>
-  <text x="${W/2}" y="500" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#c7c8d6" text-anchor="middle">18 hand-verified sets · Etsy + specialist retailers</text>
+  <text x="${W/2}" y="500" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#c7c8d6" text-anchor="middle">42 hand-verified sets · Etsy + specialist retailers</text>
   <text x="${W/2}" y="556" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#8f90a2" text-anchor="middle">every listing opened &amp; confirmed live · prices as of Jul 2026</text>
 </svg>`;
 
