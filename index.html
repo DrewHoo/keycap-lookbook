@@ -632,6 +632,23 @@ const SETS = [
     shop:"Womier", price:"27.99", cur:"USD", profile:"MOA", material:"PBT dye-sub", keys:"full kit", compat:"MX",
     note:"A whole Japanese teishoku set-meal drawn across the caps in muted naturals — the most charmingly specific set here. Flat MOA.",
     imgs:["https://womierkeyboard.com/cdn/shop/files/womier-teishoku-series-moa-profile-dye-sub-pbt-keycap-set-3493099.png","https://womierkeyboard.com/cdn/shop/products/womier-teishoku-series-moa-profile-dye-sub-pbt-keycap-set-6435777.jpg","https://womierkeyboard.com/cdn/shop/products/womier-teishoku-series-moa-profile-dye-sub-pbt-keycap-set-9603148.jpg"] },
+
+  // ===== Q8 / ALICE-NATIVE ADDITIONS (eBay · Amazon · ergo-vendor sweep, verified 2026-07-05) =====
+  { bucket:"pastel", via:"Amazon", url:"https://www.amazon.com/dp/B0F6LPY5HQ", shopUrl:"https://www.amazon.com/dp/B0F6LPY5HQ", q8:"native", q8note:"Its spec table lists 2.25u + 2.75u spacebars (plus 6.25u/7u), so the Alice split is in the box. No 1.75u shift called out — verify.",
+    title:"Rainbow Candy — Alice-ready",
+    shop:"YUNZII", price:"36.99", cur:"USD", profile:"MOA", material:"PBT dye-sub", keys:"140 keys", compat:"ANSI + Alice split",
+    note:"The cheap, genuinely Q8-ready pastel: a soft rainbow-candy MOA that ships the 2.25u + 2.75u split bars. Not as refined as Pastel Dreams, but a fifth of the price and it fits your Alice out of the box.",
+    imgs:["img/yunzii-1.jpg","img/yunzii-2.jpg","img/yunzii-3.jpg"] },
+  { bucket:"pastel", id:"4466037070", q8:"native", q8note:"Listing title states ISO Alice Split Space; KOA is uniform, so the small spacebars are convex.",
+    title:"Cute Bear — KOA (Alice)",
+    shop:"KeysCreationns", price:"120.00", cur:"USD", profile:"KOA", material:"PBT dye-sub", keys:"133 keys", compat:"ISO / Alice split",
+    note:"A pastel kawaii-bear set built for split boards — KOA (convex) PBT with the Alice split spacebars included. The closest complete Alice-native pastel under Mintlodica's price.",
+    imgs:["https://i.etsystatic.com/60077663/r/il/56bd5e/7766540554/il_fullxfull.7766540554_958j.jpg","https://i.etsystatic.com/60077663/r/il/ed61c2/7814485311/il_fullxfull.7814485311_d1b2.jpg","https://i.etsystatic.com/60077663/r/il/66d5f0/7814485303/il_fullxfull.7814485303_7uuz.jpg"] },
+  { bucket:"ukiyoe", id:"4464902737", q8:"native", q8note:"Title states KOA profile, Alice split space, ISO — convex small spacebars included.",
+    title:"BANGBOO — KOA (Alice)",
+    shop:"KeysCreationns", price:"120.00", cur:"USD", profile:"KOA", material:"PBT dye-sub", keys:"133 keys", compat:"ISO / Alice split",
+    note:"Game-IP art (Zenless Zone Zero's BANGBOO) on a KOA convex PBT set that ships the Alice split spacebars — a rare Q8-native pick in the game-art bucket.",
+    imgs:["https://i.etsystatic.com/60077663/r/il/a5ad43/7758836916/il_fullxfull.7758836916_6suj.jpg","https://i.etsystatic.com/60077663/r/il/0fca3c/7758836936/il_fullxfull.7758836936_6ki8.jpg","https://i.etsystatic.com/60077663/r/il/de1628/7806783933/il_fullxfull.7806783933_rj3v.jpg"] },
 ];
 
 const NEARMISS = [
@@ -671,22 +688,22 @@ function q8info(s){
 }
 
 const KITS = [
-  { name:"YMDK XDA Convex Spacebar Kit", vendor:"YMDK", vendorShort:"ymdkey.com", profile:"XDA", price:"7.50",
-    url:"https://ymdkey.com/products/xda-profile",
-    sizes:"1u–7u incl. 2u / 2.25u / 2.75u / 3u", colors:"white · beige · grey · black",
-    note:"The cheapest clean match. Thick PBT, uniform XDA so every small bar is convex. Pick a colour to match your set." },
-  { name:"YMDK MDA Convex Spacebar Kit", vendor:"YMDK", vendorShort:"ymdkey.com", profile:"MDA", price:"6.90",
-    url:"https://ymdkey.com/products/wholesales-mda-convex-specebar-white-kit-7-pcs",
-    sizes:"1.25u / 1.75u / 2.25u / 2.75u / 3u / 7u", colors:"white",
-    note:"A touch taller (uniform MDA). Bonus: includes the 1.75u your Q8's left shift wants." },
-  { name:"Mechkeeb XDA Convex Spacebar", vendor:"Mechkeeb", vendorShort:"Amazon", profile:"XDA", price:"8",
+  { name:"YMDK 9-pc XDA Convex Kit", vendor:"YMDK", vendorShort:"Amazon", profile:"XDA", price:"9.99",
+    url:"https://www.amazon.com/dp/B0CB5SNSCH",
+    sizes:"incl. 1.75u + 2.25u + 2.75u + 3u", colors:"beige / off-white",
+    note:"Best all-in-one. PBT, uniform XDA (convex), and it has BOTH the 2.25u+2.75u split AND the 1.75u your Q8 shift wants. In stock." },
+  { name:"Signature Plastics SA-P Convex", vendor:"pimpmykeyboard", vendorShort:"spkeyboards.com", profile:"SA-P", price:"4", perSize:true,
+    url:"https://spkeyboards.com/products/sp-sap-convex-single-keycap",
+    sizes:"2.25u + 2.75u (buy each)", colors:"neutral · blue · grey · red · orange",
+    note:"The ErgoDox-canon PBT convex bar, à-la-carte with SP colour-matching. Premium feel, limited palette." },
+  { name:"Oh Keycaps SA Convex Shortbars", vendor:"Oh Keycaps", vendorShort:"ohkeycaps.com", profile:"SA-convex", price:"24",
+    url:"https://ohkeycaps.com/products/sa-convex-shortbars-2u-2-25u-2-75u-and-3u",
+    sizes:"2.25u + 2.75u (+ 3u)", colors:"11 colours — cream, off-white, navy, green, yellow…",
+    note:"Widest colour-match by far, so it blends into almost any set. Caveat: ABS, not PBT." },
+  { name:"Mechkeeb XDA Convex", vendor:"Mechkeeb", vendorShort:"Amazon", profile:"XDA", price:"7.90",
     url:"https://www.amazon.com/Mechkeeb-Convex-Spacebar-White-Black/dp/B09YY64DSF",
     sizes:"1.25u / 2u / 2.25u / 2.75u", colors:"off-white · black",
-    note:"In stock on Amazon; the black option is perfect under a cyberpunk set." },
-  { name:"Custom dye-sub split spacebar", vendor:"Etsy · made-to-order", vendorShort:"Etsy", profile:"XDA", price:"18",
-    url:"https://www.etsy.com/listing/4504252034/", perSize:true,
-    sizes:"2.25u / 2.75u / 3u (each)", colors:"any — colour-matched",
-    note:"Pricier and sold per size, but the move if a plain neutral bar would clash with a bold gradient set." },
+    note:"Cheap and in stock; the black option is the clean pick under a cyberpunk set." },
 ];
 
 function card(s){
